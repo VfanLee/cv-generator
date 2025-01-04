@@ -1,0 +1,46 @@
+.markdown-render.default {
+  padding: 1.25rem;
+
+  h1 {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom-width: 1px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.25;
+  }
+
+  h2 {
+    margin: 1.25rem 0 0.75rem;
+    padding: 0.125rem 0.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    background-image: linear-gradient(to right, rgba(#2b579a, 0.25), white);
+    color: #2b579a;
+  }
+
+  h3 {
+    margin: 1.25rem 0 0.75rem;
+    padding: 0.125rem 0.75rem;
+    color: #2b579a;
+  }
+
+  p {
+    line-height: 2;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 2rem;
+  }
+
+  ol {
+    list-style: decimal;
+    margin-left: 2rem;
+  }
+
+  li {
+    line-height: 1.725rem;
+  }
+}

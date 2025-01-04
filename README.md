@@ -1,1 +1,1 @@
-# vfan-cv
+# CV Generator
