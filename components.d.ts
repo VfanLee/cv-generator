@@ -7,6 +7,8 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    LoadingSpinner: typeof import('./src/components/LoadingSpinner.vue')['default']
+    Logo: typeof import('./src/components/Logo.vue')['default']
     MarkdownRender: typeof import('./src/components/MarkdownRender/index.vue')['default']
     MonacoEditor: typeof import('./src/components/MonacoEditor/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

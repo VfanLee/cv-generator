@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import example from '@/templates/example.md?raw'
+import { ref } from 'vue'
 
 const content = ref(example)
 </script>
