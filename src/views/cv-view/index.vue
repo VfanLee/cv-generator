@@ -60,7 +60,7 @@ const content = ref(example)
 
   @page {
     size: A4;
-    margin: 1cm;
+    margin: 1rem;
   }
 }
 </style>
