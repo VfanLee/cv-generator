@@ -1,11 +1,13 @@
-.markdown-render.default {
-  $primary-color: #2b579a;
+html:has(.markdown-render.default) {
+  --base-size: 14px;
+}
 
-  padding: 1.25rem;
+.markdown-render.default {
+  padding: 1rem;
 
   h1 {
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.25rem;
     border-bottom-width: 1px;
     font-size: 1.75rem;
     font-weight: bold;
@@ -15,10 +17,10 @@
   h2 {
     margin: 1.25rem 0 0.75rem;
     padding: 0.125rem 0.75rem;
-    background-image: linear-gradient(to right, rgba($primary-color, 0.25), white);
+    background-image: linear-gradient(to right, rgb(43, 87, 154, 0.25), white);
     font-size: 1.25rem;
     font-weight: bold;
-    color: $primary-color;
+    color: rgb(43, 87, 154);
   }
 
   h3 {
@@ -26,7 +28,7 @@
     padding: 0.125rem 0.75rem;
     font-size: 1.125rem;
     font-weight: bold;
-    color: $primary-color;
+    color: rgb(43, 87, 154);
   }
 
   p {
